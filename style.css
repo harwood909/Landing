@@ -1,0 +1,29 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    background-color: lightgray;
+    border: 5px solid black;
+    width: 200px;
+    height: 150px;
+}
+
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-between;
+}
+
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
