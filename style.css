@@ -1,19 +1,67 @@
+
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 0rem 1rem;
+}
+
+.bottom-banner-container{
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 1rem;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 10rem;
+    padding: 2rem 8rem;
+}
+
+.bottom-banner-container button{
+    border: 2px solid #E5E7EB;
+    flex: 0 0 auto;
+    height: 50px;
+    width: 300px;
+
+}
+
+button{
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: .25rem;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: .3rem 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0rem 10rem 8rem 10rem;
+    margin: 0rem 1rem;
+}
+
 html{
     font-family: "Roboto", sans-serif;
 }
 
-img{
-    background-color: lightgray;
-    border: 5px solid black;
-    width: 300px;
-    height: 75px;
+h1{
+    font-size: 48px;
+    font-weight: bolder;   
+    color: #F9FAF8;
 }
 
-.hero{
-    display: flex;
-    background-color: #1F2937;
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;   
+    color: #1F2937;
+}
+
+h3{
+    font-size: 24px;
     color: #F9FAF8;
-    justify-content: center;
 }
 
 .header{
@@ -22,17 +70,76 @@ img{
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 10rem;
+}
+
+.hero-img img{
+    background-color: lightgray;
+    width: 500px;
+    height: auto;
 }
 
 .header-links{
     display: flex;
     justify-content: flex-start;
-   margin-left: 1rem;
-   
+    font-size: 18px;
 }
 
-a{
+.hero{
+    display: flex;
+    background-color: #1F2937;
     color: #F9FAF8;
-    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem 8rem 10rem;
+}
+
+.hero-text{
+    width: 350px;
+    height: auto;
+}
+
+.info{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: #1F2937;
+    font-size: 18px;
+    margin: 0rem 2rem;
+    text-align: center;
+    width: 150px;
+}
+
+.info-container{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 2rem;
+}
+
+.info img{
+    height: 300px;
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.quote{
+    display: flex;
+}
+
+.quote-author{
+    display: flex;
+    font-weight: bolder;
+    justify-content: flex-end;
+}
+
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: flex-end;
+    padding: 10rem 15rem;
+
 }
